@@ -1,0 +1,54 @@
+﻿.slider-img {
+    width: 100%;
+}
+
+.footer-qc {
+    display: flex;
+    background-color: #5c6873;
+}
+
+li {
+    list-style: none;
+    margin-top: 10px;
+    color: white;
+}
+
+.login {
+    width: 330px;
+    border: 1px solid;
+    text-align: center;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    padding: 10px;
+}
+
+.title-login {
+    font-weight: 550;
+    color: #666;
+    font-size: 16px;
+    padding: 7px 0;
+}
+
+.input-login {
+    margin-left: 5px;
+}
+
+.input-group {
+    padding: 3px 0;
+}
+
+.ghiNho {
+    text-align: left;
+    margin-left: 5px;
+}
+
+.hoac {
+    color: #666;
+    padding: 5px 0;
+}
+
+a {
+    color: white;
+}

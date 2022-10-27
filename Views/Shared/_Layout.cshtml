@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+    <link href="~/Content/Site.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link href="~/Assets/Css/main.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                @Html.ActionLink("Trang Chủ", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+                @Html.ActionLink("Nạp Thẻ", "Index", "Card", new { area = "" }, new { @class = "navbar-brand" })
+                @Html.ActionLink("Đăng Nhập", "Index", "DangNhap", new { area = "" }, new { @class = "navbar-brand" })
+                @Html.ActionLink("Đăng Ký", "Index", "DangKi", new { area = "" }, new { @class = "navbar-brand" })
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="container body-content">
+        @RenderBody()
+        <hr />
+        <footer>
+            <div class="footer-qc">
+                <div>
+                    <ul>
+                        <li>Chuyên Mua Bán ACC Game Liên Quân Và Có Phần Thử Vận May Siêu Hot Siêu Hấp Dẫn Và Tràn Đầy  Nhiều Phần Thưởng Có Giá Trị</li>
+                        <li>Shop Giao Dịch Tự Động 24/24 Với Đội CHKH Nhiệt Tình Thân Thiện</li>
+                        <li>Nick các game... an toàn. Tin cậy nhanh chóng. Giao dịch tự động 24/7</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <ul>
+                        <li>Chúng tôi làm việc một cách chuyên nghiệp, uy tín, nhanh chóng và luôn đặt quyền lợi của bạn lên hàng đầu</li>
+                        <li>Với Tiêu Chí Khách Hàng Là Trên Hết Shop Chúng Tôi Sẽ Mang Đến Khách Hàng Những Trải Nghiệm Ưng Ý Nhất</li>
+                        <li>Việc một cách chuyên nghiệp, uy tín, nhanh chóng và luôn đặt quyền lợi của bạn lên hàng đầu.</li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</body>
+</html>

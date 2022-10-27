@@ -1,0 +1,28 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+@* card *@
+<div class="login">
+    <div class="title-login">Đăng nhập hệ thống</div>
+    <div class="input-login">
+        <form>
+            <div class="input-group">
+                <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                <input id="email" type="text" class="form-control" name="email" placeholder="Tài khoản của web">
+            </div>
+            <div class="input-group">
+                <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+                <input id="password" type="password" class="form-control" name="password" placeholder="Mật khẩu">
+            </div>
+        </form>
+    </div>
+    <div class="ghiNho">
+        <input type="checkbox"" />
+        <span style=" vertical-align: text-bottom;">Ghi nhớ</span>
+    </div>
+    <div class="login-bt"><button type="button" class="btn btn-info">Đăng nhập</button></div>
+    <div class="hoac">-HOẶC-</div>
+    <div><button type="button" class="btn btn-danger">@Html.ActionLink("Đăng ký", "Index", "DangKi")</button></div>
+</div>
